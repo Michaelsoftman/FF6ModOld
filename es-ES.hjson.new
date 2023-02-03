@@ -9,7 +9,7 @@
 Mods: {
 	FF6Mod: {
 		Config: {
-			ItemHeader: Elemental System
+			ItemHeader: Sistema Elemental
 
 			ElementalToggle: {
 				Label: Elemental Toggle
@@ -26,20 +26,20 @@ Mods: {
 
 		TownNPCMood: {
 			FF6Cid: {
-				Content: I feel fine right now.
-				NoHome: Having a home would be pretty nice.
-				LoveSpace: I love how there is so much space here!  Just like back on my island.
-				FarFromHome: I think I'm a bit lost, can you help?
-				DislikeCrowded: There are too many people around, and someone stole some of my magicite.
-				HateCrowded: This place is more crowded than the Imperial capital.
-				LikeBiome: "{BiomeName} is a very pleasant place."
-				LoveBiome: I love {BiomeName}, reminds me of home.
-				DislikeBiome: I don't like {BiomeName}, I'd prefer to leave at once
-				HateBiome: I plan to burn down my own home so I can leave {BiomeName}.
-				LikeNPC: I like living near {NPCName}, they're very friendly.
+				Content: Por ahora estoy bastante bien.
+				NoHome: Estaría bien tener mi propio hogar.
+				LoveSpace: ¡Me encanta que haya tanto espacio! Es como volver a mi isla...
+				FarFromHome: Creo que ando algo perdido... ¿Me puedes echar una mano?
+				DislikeCrowded: ¡Hay demasiada gente aquí! Y encima creo que me han robado algunas de mis magicitas...
+				HateCrowded: Este lugar está más abarrotado que la Capital Imperial.
+				LikeBiome: "{BiomeName}... Qué lugar tan agradable."
+				LoveBiome: Me encanta {BiomeName}, me recuerda a mi hogar.
+				DislikeBiome: No me gusta {BiomeName}, preferiría salir pronto de aquí.
+				HateBiome: Como no salga pronto de {BiomeName} pienso prender fuego a mi casa y así tener una excusa para largarme de aquí.
+				LikeNPC: Me gusta vivir cerca de {NPCName}, es bastante amable.
 				LoveNPC: "{NPCName} is a great neighbor to have."
-				DislikeNPC: I wish you'd move {NPCName} to the other side of the world.
-				HateNPC: I plan to use {NPCName} for some experiments later, let's hope it works out OK.
+				DislikeNPC: Ojalá {NPCName} se mudara a tomar viento de aquí.
+				HateNPC: Pienso utilizar a {NPCName} para mis propios experimentos. Espero que salga bien y no explote violentamente.
 			}
 
 			FF6ImperialDefector: {
@@ -96,93 +96,92 @@ Mods: {
 
 		Buffs: {
 			BerserkBuff: {
-				DisplayName: Berserk
+				DisplayName: Berserker
 				Description:
 					'''
-					Reduces Def by 25
-					35% Melee, Throwing, and Bushido damage boost
-					10% Melee, Throwing, and Bushido crit boost
-					Reduces Magic and Summon damage by 80%
+					Reduce Def 25
+					Incrementa un 35% el daño de Melee, Arrojar, y Bushido
+					Incrementa un 10% el crítico de Melee, Arrojar, y Bushido
+					Reduce el daño de Magia e Invocación un 80%
 					'''
 			}
 
 			CharmBangleBuff: {
-				DisplayName: Charm Bangle
-				Description: Lowers enemy spawn rate
+				DisplayName: Brazal Encantado
+				Description: Reduce la aparición de enemigos
 			}
 
 			CureRingBuff: {
-				DisplayName: Cure Ring
-				Description: Gradually restores HP over time.
+				DisplayName: Anillo Cura
+				Description: Restaura gradualmente la HP.
 			}
 
 			BerserkBuff2: {
-				DisplayName: Berserk
+				DisplayName: Berserker
 				Description:
 					'''
-					Reduces Def by 25
-					35% Melee, Throwing, and Bushido damage boost
-					10% Melee, Throwing, and Bushido crit boost
-					Reduces Magic and Summon damage by 80%
+					Reduce Def 25
+					Incrementa un 35% el daño de Melee, Arrojar, y Bushido
+					Incrementa un 10% el crítico de Melee, Arrojar, y Bushido
+					Reduce el daño de Magia e Invocación un 80%
 					'''
 			}
 
 			ImpBuff: {
-				DisplayName: Imp
+				DisplayName: Kappa
 				Description:
 					'''
-					You've become an Imp! Kappa! 
-					Severely lowers all stats. 
-					Raises damage with ???
+					¡Te has convertido en un Kappa! 
+					Reduce considerablemente las estadísticas. 
+					Incrementa el daño con ???
 					'''
 			}
 
 			MiniBuff: {
 				DisplayName: Mini
-				Description: You have shrunk down to a miniature size
+				Description: Has encogido a un estado mini.
 			}
 
 			PigBuff: {
-				DisplayName: Pig
+				DisplayName: Cerdícolis
 				Description:
 					'''
-					You have been changed into a pig. 
-					Severely lowers magic and summon damage.
+					Ahora eres un cerdo. 
+					Reduce considerablemente el daño mágico y de invocaciones.
 					'''
 			}
 
 			ToadBuff: {
-				DisplayName: Toad
-				Description: You have been changed into a Toad
+				DisplayName: Sapificación
+				Description: Te has convertido en un sapo.
 			}
 
 			DodgeBuff: {
-				DisplayName: Dodge
-				Description: 15% chance to dodge all attacks
+				DisplayName: Esquivar
+				Description: 15% de probabilidad de esquivar todos los ataques.
 			}
 
 			EsperCooldown: {
-				DisplayName: Summon Cooldown
-				Description: Cannot summon another esper or eidolon for a time
+				DisplayName: Cooldown de Invocación
+				Description: Debes esperar para invocar de nuevo
 			}
 
 			FloatBuff: {
-				DisplayName: Float
+				DisplayName: Lévita
 				Description:
 					'''
-					Grants slow fall, increased jump ability, 
-					and immunity to fall damage
+					Proporciona una caída lenta, incremente el salto y otorga inmunidad al daño por caída.					and immunity to fall damage
 					'''
 			}
 
 			GunbladeBuff: {
-				DisplayName: Accuracy
-				Description: The next melee attack receives boosted damage
+				DisplayName: Precisión
+				Description: El siguiente ataque a melee recibe un incremento de daño.
 			}
 
 			Life3: {
-				DisplayName: Reraise
-				Description: Lowers respawn time
+				DisplayName: Autolázaro
+				Description: Reduce el tiempo de reaparición.
 			}
 
 			MoogleCharmBuff: {
